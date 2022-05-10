@@ -1,0 +1,175 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.bk {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.menu {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  list-style: none;
+  justify-content: center;
+}
+
+header {
+  background: url(/images/fondo2.png) no-repeat top center;
+  border-style: solid;
+  border-bottom: #000000;
+  border-style: solid;
+}
+
+/* menu */
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #5c5c5c;
+  border-style: solid;
+  border-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: "➜";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -25px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  box-shadow: none;
+  text-decoration-style: none;
+}
+.login {
+  display: flex;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}
+
+.input {
+  display: block;
+  position: static;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  border-color: #000000;
+  color: #ffffff;
+  text-shadow: 5px;
+  background-color: rgb(131, 130, 130);
+}
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+footer {
+  background-color: rgb(15, 15, 15);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 10px;
+  margin-top: 200px;
+  padding: 10px;
+  text-decoration: none;
+  text-decoration-color: #ffffff;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+.contenedorbuy {
+  display: flex;
+  margin-left: 250px;
+  margin-right: 150px;
+  margin-top: 120px;
+}
+h3 {
+  margin-left: 30px;
+  font-size: 7px;
+}
+p {
+  margin-bottom: 300px;
+}
+.price {
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.tlls {
+  font-size: 15px;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+p {
+  font-size: 17px;
+  border: #5c5c5c;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 10px;
+}
+p:active {
+  background-color: #5c5c5c;
+  color: #ffffff;
+}
+p:hover {
+  cursor: pointer;
+}
+
+.imgbuy {
+  border-color: #5c5c5c;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+}
+
+.talles {
+  display: flex;
+  font-size: 15px;
+}
+
+.cuotas {
+  font-size: 13px;
+  margin-left: 55px;
+}
+
+.btnbuy {
+  display: flex;
+  margin-top: 281px;
+  font-size: 18px;
+}
+

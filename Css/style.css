@@ -1,5 +1,6 @@
 * {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .bk {
@@ -23,17 +24,14 @@ header {
   border-style: solid;
 }
 
-h2 {
+h3 {
   margin: 10px;
   padding: 10px;
   text-align: center;
-  font-size: 19px
+  font-size: 5px;
 }
 
-:visited {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
+
 
 footer {
   background-color: rgb(15, 15, 15);
@@ -79,7 +77,7 @@ footer {
 
 .texto {
   margin: 5px;
-  padding: 1px
+  padding: 1px;
 }
 
 .contenedor_imagen_texto {
@@ -106,6 +104,7 @@ footer {
   border-width: 1px;
   border-style: solid;
   border-color: rgb(0, 0, 0);
+  color: #000000;
 }
 
 #carouselExample {
@@ -143,7 +142,7 @@ button span {
 }
 
 button span:after {
-  content: '»';
+  content: "➜";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -160,13 +159,48 @@ button:hover span:after {
   right: 0;
 }
 
-:visited {
-  color: rgb(255, 255, 255);
+a {
+  color: black;
+  box-shadow: none;
   text-decoration: none;
+  text-decoration-color: none ;
 }
 
-@media only screen and (max-width:768px) {
+:visited{
+  color: #000000;
+}
+:visited:hover{
+  color: #000000;
+}
 
+.login {
+  display: flex;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}
+
+.input {
+  display: block;
+  position: static;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  border-color: #000000;
+  color: #ffffff;
+  text-shadow: 5px;
+  background-color: rgb(131, 130, 130);
+}
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.contenedor_principal {
+}
+
+
+
+@media only screen and (max-width: 768px) {
   .imagen,
   .texto,
   .contenedor_imagen_texto {
@@ -178,6 +212,7 @@ button:hover span:after {
     text-align: left;
     margin: 2px;
     padding: 5px;
+
   }
 
   footer {
@@ -188,4 +223,9 @@ button:hover span:after {
   header {
     justify-content: center;
   }
+}
+
+.contenedor_imagen_texto{
+  size: 50%;
+
 }
